@@ -5,7 +5,7 @@ export const githubApi = axios.create({
   baseURL: 'https://api.github.com',
   headers: {
     'Content-Type': 'application/json',
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer GITHUB_PAT_11ASU7GZY0GGKOBSXP6TFX_JWQCO7SULXADZRY5NDAYINACHE5HN74ILIEKHQSYAUEPKUL3JOBTHL619MH`,
   },
 });
 
